@@ -1,9 +1,58 @@
 body {
     font-family: 'Space Mono', monospace;
+    font-weight: 700;
     color: #333333;
+    margin: 0;
 }
 
-h2 {
+.content-title {
     font-family: 'Inconsolata', monospace;
     font-weight: 700;
+    margin: 20px 0 64px 24px;
 }
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 286px;
+    height: 220px;
+    margin: 0 44px 77px 44px;
+}
+
+.content-header {
+    font-size: 3em;
+    margin: 0 0 29px 24px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+}
+
+.content-body {
+    font-weight: 400;
+    font-size: 1.125em;
+    margin: 0 24px 67px 24px;
+}
+
+.content-btn,
+footer {
+    font-size: .875em;
+}
+
+.content-btn {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 135px 96px 24px;
+    padding: 1.5em 2.68em;
+    
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align:center;
+    margin-bottom: 42px;
+}
+
