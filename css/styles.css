@@ -1,0 +1,80 @@
+
+/* experimenting using grid*/
+body {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    color: #333333;
+    margin: 0;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+.content__title {
+    grid-row: 1 / 2;
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    margin: 20px auto 64px 24px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+
+.content__img {
+    grid-row: 2 / 3;
+    width: 286px;
+    height: 220px;
+    margin: 0 44px 77px 44px;
+}
+
+.content__header {
+    grid-row:3 / 4;
+    font-size: 3rem;
+    margin: 0 0 29px 24px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+}
+
+.content__body {
+    grid-row: 4 / 5;
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin: 0 24px 67px 24px;
+    line-height:27px;
+    letter-spacing:  -0.035em;
+
+}
+
+.content__btn,
+.content__footer {
+    font-size: .875rem;
+}
+
+.content__btn {
+    display:block;
+    grid-row: 5 / 6;
+    width: 130px;
+    height: 22px;
+    background-color: #333333;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left:24px;
+    padding: 24px 43px;
+    text-transform: uppercase;
+    letter-spacing: -0.035em
+}
+
+.content__footer {
+    grid-row: 6 / -1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align:center;
+    margin: 96px 75px 42px 75px;
+    line-height:17px;
+}
+
+@media only screen and (min-width: 500px) {
+    
+}
