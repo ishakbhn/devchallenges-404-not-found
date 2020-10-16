@@ -5,42 +5,42 @@ body {
     margin: 0;
 }
 
-.content-title {
+.content__title {
     font-family: 'Inconsolata', monospace;
     font-weight: 700;
     margin: 20px 0 64px 24px;
 }
 
-.content-main {
+.content__main {
     display: flex;
     flex-direction: column;
 }
 
-img {
+.content__img {
     width: 286px;
     height: 220px;
     margin: 0 44px 77px 44px;
 }
 
-.content-header {
+.content__header {
     font-size: 3em;
     margin: 0 0 29px 24px;
     line-height: 71px;
     letter-spacing: -0.035em;
 }
 
-.content-body {
+.content__body {
     font-weight: 400;
     font-size: 1.125em;
     margin: 0 24px 67px 24px;
 }
 
-.content-btn,
-footer {
+.content__btn,
+.content__footer {
     font-size: .875em;
 }
 
-.content-btn {
+.content__btn {
     background-color: #333333;
     color: #FFFFFF;
     text-decoration: none;
@@ -49,7 +49,7 @@ footer {
     
 }
 
-footer {
+.content__footer {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-align:center;
