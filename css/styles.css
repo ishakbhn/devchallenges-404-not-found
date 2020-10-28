@@ -1,10 +1,10 @@
-
 /* experimenting using grid*/
 body {
     font-family: 'Space Mono', monospace;
     font-weight: 700;
     color: #333333;
     margin: 0;
+    
 }
 
 .content {
@@ -60,7 +60,7 @@ body {
     background-color: #333333;
     color: #FFFFFF;
     text-decoration: none;
-    margin-left:24px;
+    margin:0 auto 96px 24px;
     padding: 24px 43px;
     text-transform: uppercase;
     letter-spacing: -0.035em
@@ -70,11 +70,78 @@ body {
     grid-row: 6 / -1;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    text-align:center;
-    margin: 96px 75px 42px 75px;
+    justify-self:center;
+    margin: 0 auto 42px auto;
     line-height:17px;
 }
 
-@media only screen and (min-width: 500px) {
-    
+@media only screen and (min-width: 600px) {
+    .content {
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto;
+        height: 100vh;
+    }
+
+    .content__title {
+        grid-column: 1 / -1;
+        margin: 44px auto 200px 77px;
+        height: 25px;
+    }
+
+    .content__img {
+        width: 540px;
+        height: 447px;
+        grid-row: 2 / 5;
+        margin: 0 118px 0 77px;
+    }
+
+    .content__header,
+    .content__body,
+    .content__btn {
+        grid-column: 2 / -1;
+    }
+
+    .content__header {
+        font-size: 4rem;
+        grid-row: 2 / 3;
+        width: 586px;
+        height: 190px;
+        line-height: 95px;
+        margin: 0 119px 36px 0;
+        
+    }
+
+    .content__body {
+        font-size: 1.5rem;
+        grid-row: 3 / 4;
+        width: 380px;
+        height: 108px;
+        line-height: 36px;
+        margin: 0 323px 64px 0;
+    }
+
+    .content__btn {
+        grid-row: 4 / 5;
+        margin: 0 auto 293px 0;
+    }
+
+    .content__footer {
+        grid-column: 1 / -1;
+        margin-bottom: 40px;
+    }
+
 }
+
+/* Color
+    #333333
+    #FFFFFF
+*/
+
+
+/*  font-size
+    .875rem
+    1.125rem
+    1.5rem
+    3rem
+    4rem
+*/

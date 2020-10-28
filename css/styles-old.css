@@ -48,7 +48,7 @@ body {
 }
 
 .content__btn {
-    display:block;
+    /* display:block; */
     width: 130px;
     height: 22px;
     background-color: #333333;
