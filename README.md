@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://devchallenges-404-not-found-138m0slv8.vercel.app/">
+    <a href="https://devchallenges-404-not-found.ishakbhn.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -40,7 +40,7 @@
 
 ### Where can I see your demo
 
-- You can click on the link her --> [Demo](https://devchallenges-404-not-found-138m0slv8.vercel.app/)
+- You can click on the link her --> [Demo](https://devchallenges-404-not-found.ishakbhn.vercel.app/)
 
 ### What was your experience
 
